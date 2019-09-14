@@ -1,0 +1,3 @@
+int funOn();
+
+int funOff();
