@@ -116,7 +116,11 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="head.h" />
     <ClInclude Include="__vm\.Test.vsarduino.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="function.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

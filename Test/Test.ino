@@ -2,6 +2,7 @@
  Name:		Test.ino
  Created:	2019/9/14 19:56:13
  Author:	steve
+ 这是第一次用visual studio的测试，并且测试了模块化处理
 */
 
 #include "head.h"
@@ -12,11 +13,7 @@ void setup() {
 
 // the loop function runs over and over again until power down or reset
 void loop() {
-	digitalWrite(13, HIGH);
+	funOn();
 	delay(1000);
-	digitalWrite(13, LOW);
-	delay(1000);
-	/*funOn();
-	delay(1000);
-	funOff();*/
+	funOff();
 }
